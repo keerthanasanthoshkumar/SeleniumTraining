@@ -1,0 +1,460 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "To validate login with username and password.",
+        "description": "",
+        "id": "to-validate-the-login-of-facebook-application.;to-validate-login-with-username-and-password.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3068110800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To launch  chrome browser and maximize the  window.",
+            "match": {
+              "location": "PositiveAndNegativeFb.to_launch_chrome_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1375187600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To launch the facebook url.",
+            "match": {
+              "location": "PositiveAndNegativeFb.to_launch_the_facebook_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 202466400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To enter the  username in email field.",
+            "match": {
+              "location": "PositiveAndNegativeFb.to_enter_the_username_in_email_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163442100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To enter the password in password field.",
+            "match": {
+              "location": "PositiveAndNegativeFb.to_enter_the_password_in_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101790400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To click signin button",
+            "match": {
+              "location": "PositiveAndNegativeFb.to_click_signin_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Features"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "To validate the positive and negative combination of login functionality.",
+        "description": "",
+        "id": "to-validate-the-login-of-facebook-application.;to-validate-the-positive-and-negative-combination-of-login-functionality.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1231685600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User has to launch  browser and maximize the  window.",
+            "match": {
+              "location": "FbLogin.user_has_to_launch_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1281998600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to enter the url of the facebook application",
+            "match": {
+              "location": "FbLogin.user_has_to_enter_the_url_of_the_facebook_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137182100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has to enter the data \"keerthanajaskk@gmail.com\"in email field.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"keerthanajaskk@gmail.com\"",
+                  "offset": 27
+                }
+              ],
+              "location": "FbLogin.user_has_to_enter_the_data_in_email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128858200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User has to enter the data \"7708603903\"in password field.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"7708603903\"",
+                  "offset": 27
+                }
+              ],
+              "location": "FbLogin.user_has_to_enter_the_data_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117370100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User has to click the signin button.",
+            "match": {
+              "location": "FbLogin.user_has_to_click_the_signin_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Features"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "To validate the positive and negative combination of login functionality.",
+        "description": "",
+        "id": "to-validate-the-login-of-facebook-application.;to-validate-the-positive-and-negative-combination-of-login-functionality.;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1268191200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User has to launch  browser and maximize the  window.",
+            "match": {
+              "location": "FbLogin.user_has_to_launch_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1648322500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to enter the url of the facebook application",
+            "match": {
+              "location": "FbLogin.user_has_to_enter_the_url_of_the_facebook_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 222235200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has to enter the data \"keerthanasanthoshkumar1312@gmail.com\"in email field.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"keerthanasanthoshkumar1312@gmail.com\"",
+                  "offset": 27
+                }
+              ],
+              "location": "FbLogin.user_has_to_enter_the_data_in_email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 195829900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User has to enter the data \"8508040575\"in password field.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"8508040575\"",
+                  "offset": 27
+                }
+              ],
+              "location": "FbLogin.user_has_to_enter_the_data_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132513200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User has to click the signin button.",
+            "match": {
+              "location": "FbLogin.user_has_to_click_the_signin_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Features"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "To validate the positive and negative combination of login functionality.",
+        "description": "",
+        "id": "to-validate-the-login-of-facebook-application.;to-validate-the-positive-and-negative-combination-of-login-functionality.;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1518419200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User has to launch  browser and maximize the  window.",
+            "match": {
+              "location": "FbLogin.user_has_to_launch_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2081746300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to enter the url of the facebook application",
+            "match": {
+              "location": "FbLogin.user_has_to_enter_the_url_of_the_facebook_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 274957800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has to enter the data \"keerthanasanthoshkumar1312@gmail.com\"in email field.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"keerthanasanthoshkumar1312@gmail.com\"",
+                  "offset": 27
+                }
+              ],
+              "location": "FbLogin.user_has_to_enter_the_data_in_email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160218200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User has to enter the data \"8610662417\"in password field.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"8610662417\"",
+                  "offset": 27
+                }
+              ],
+              "location": "FbLogin.user_has_to_enter_the_data_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133038600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User has to click the signin button.",
+            "match": {
+              "location": "FbLogin.user_has_to_click_the_signin_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Features"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "To validate the positive and negative combination of login functionality.",
+        "description": "",
+        "id": "to-validate-the-login-of-facebook-application.;to-validate-the-positive-and-negative-combination-of-login-functionality.;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3001813600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User has to launch  browser and maximize the  window.",
+            "match": {
+              "location": "FbLogin.user_has_to_launch_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2276002700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User has to enter the url of the facebook application",
+            "match": {
+              "location": "FbLogin.user_has_to_enter_the_url_of_the_facebook_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 163075600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User has to enter the data \"abcdef@gmail.com\"in email field.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcdef@gmail.com\"",
+                  "offset": 27
+                }
+              ],
+              "location": "FbLogin.user_has_to_enter_the_data_in_email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 151755900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User has to enter the data \"12345678\"in password field.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345678\"",
+                  "offset": 27
+                }
+              ],
+              "location": "FbLogin.user_has_to_enter_the_data_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92030600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User has to click the signin button.",
+            "match": {
+              "location": "FbLogin.user_has_to_click_the_signin_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Features"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the login of facebook application.",
+    "description": "",
+    "id": "to-validate-the-login-of-facebook-application.",
+    "keyword": "Feature",
+    "uri": "src/test/resources/fblogin.feature",
+    "tags": [
+      {
+        "name": "@Features",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
